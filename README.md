@@ -5,7 +5,7 @@
     <img src="images/zv-logo.png" alt="Logo" width="200" height="40">
   </a>
 
-  <h3 align="center">ZeroVuln Free Bits </h3>
+  <h3 align="center">Free Bits for Securing Platforms and Services</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -23,40 +23,25 @@
 
 
 
-<!-- ZV INFRA PRODUCT CORE REPO-->
-## ZV Infra Product Core Repo
+<!-- Cloudflare-->
+## Cloudflare
 
-This is the core infrastructure supporting the ZV product.
+This will get you started with a basic deployment of Cloudflare using Pulumi, limited to the free plan.
 
 Built using the following:
-1. [AWS-Serverless]
+1. [Pulumi-Cloudflare-Provider]
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ZV INFRA PRODUCT CUSTOMER ENDPOINT -->
-## ZV Infra Product Customer Endpoint
+<!-- AWS -->
+## AWS
 
-This is the code supporting the ZV product customer endpoint.
+TBD
 
-
-<!-- MACOS -->
-### MacOS
-
-This is the GoLang code supporting MacOS package and chrome extension enumeration.
-
-<!-- K8S -->
-### K8s
-
-This is the GoLang code supporting package enumeration in K8s via means of a DaemonSet. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ZV INFRA PRODUCT CUSTOMER CLOUD -->
-## ZV Infra Product Customer Cloud
-
-This is the code supporting the ZV product customer cloud.
+Built using the following:
+1. [TBD]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
