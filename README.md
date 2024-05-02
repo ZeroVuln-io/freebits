@@ -45,3 +45,8 @@ Built using the following:
 1. [TBD]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[Pulumi-Cloudflare-Provider]: https://pulumi.com/registry/packages/cloudflare/
