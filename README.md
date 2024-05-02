@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://zerovuln.io">
+  <a href="https://zerovuln.ai">
     <img src="images/zv-logo.png" alt="Logo" width="200" height="40">
   </a>
 
-  <h3 align="center">ZeroVuln Infrastructure MonoRepo</h3>
+  <h3 align="center">ZeroVuln Free Bits </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -13,15 +13,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#infra-product-core">ZV Infra Product Core</a>
+      <a href="#cloudflare">Cloudflare Deployment</a>
     </li>
     <li>
-      <a href="#infa-product-customer-endpoint">ZV Infra Product Customer Endpoint</a>
-    </li>
-    <ul><li><a href="#macos">MacOS</a></li></ul>
-    <ul><li><a href="#k8s">K8s</a></li></ul>
-    <li>
-      <a href="#infa-product-customer-cloud">ZV Infra Product Customer Cloud</a>
+      <a href="#aws">AWS</a>
     </li>
   </ol>
 </details>
