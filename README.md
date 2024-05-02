@@ -23,8 +23,8 @@
 
 
 
-<!-- Cloudflare Deployment-->
-## Cloudflare
+<!-- Cloudflare -->
+## Cloudflare Deployment
 
 This will get you started with a basic deployment of Cloudflare using Pulumi, limited to the free plan.
 
