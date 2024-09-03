@@ -7,7 +7,7 @@ customer1_vars = {
     # Base Variables
 
     "zone_id": "some_id",
-    "target": "foobar.ai",
+    "target": "foo.com",
 
     # DNS Record
     
