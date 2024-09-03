@@ -16,7 +16,7 @@
       <a href="#cloudflare">Cloudflare Deployment</a>
     </li>
     <li>
-      <a href="#aws">AWS</a>
+      <a href="#aws">GCP</a>
     </li>
   </ol>
 </details>
