@@ -24,11 +24,11 @@
 
 
 <!-- Cloudflare -->
-## Cloudflare Deployment
+# Cloudflare Deployment
 
 This repository contains Python code to deploy and manage Cloudflare infrastructure using Pulumi.
 
-# Prerequisites
+## Prerequisites
 
 1. **CI/CD Infra**: Assumes you have a CI/CD Infra deployed with a secrets management solution.
 2. **Pulumi CLI**: Install Pulumi CLI from the [official website](https://www.pulumi.com/docs/get-started/install/).
@@ -47,7 +47,7 @@ This repository contains Python code to deploy and manage Cloudflare infrastruct
     pip install pulumi_cloudflare==5.37.1
     ```
 
-# Setup
+## Setup
 
 1. **Clone the repository**:
     ```bash
@@ -72,13 +72,13 @@ This repository contains Python code to deploy and manage Cloudflare infrastruct
    - Store your Cloudflare API token in a secrets manager integrated with your CI/CD platform.
    - Update your CI/CD pipeline configuration to use the secrets manager for securely accessing the API token and executing Pulumi commands.
 
-# Project Structure
+## Project Structure
 
 - **vars.py**: Holds the variables used across the project.
 - **customer_1.py**: Contains the logic specific to Customer 1.
 - **__main__.py**: Executes the build tasks for Customer 1 and manages the deployment process.
 
-# Deployment
+## Deployment
 
 1. **Push Changes to GitHub**:
    - Simply push your changes to the corresponding GitHub repository.
@@ -89,7 +89,7 @@ This repository contains Python code to deploy and manage Cloudflare infrastruct
 
 
 <!-- GCP -->
-## GCP Secrets Deployment
+# GCP Secrets Deployment
 
 TBD
 
@@ -97,7 +97,7 @@ Built using the following:
 1. [TBD]
 
 
-## GCP GKE Deployment
+# GCP GKE Deployment
 
 TBD
 
