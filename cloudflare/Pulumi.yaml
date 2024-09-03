@@ -1,0 +1,10 @@
+name: cloudflare
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Building Cloudflare artificats
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
