@@ -183,8 +183,3 @@ customer1_vars = {
         "x_frame_options": "DENY"
     },
 }
-
-## Customer 2 ##
-
-# Fill the void when ready...
-
