@@ -26,13 +26,13 @@
 <!-- Cloudflare -->
 # Cloudflare Deployment
 
--[Cloudflare Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) written in using Pulumi and written in Python.
+- [Cloudflare Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) written in using Pulumi and written in Python.
 
 
 <!-- Github Dependabot Alert Fetcher -->
 # Github Dependabot Alert Fetcher
 
--[ghbotcheck]() is a cli written in golang used to fetch CVEs across github orgs and repos.
+- [ghbotcheck]() is a cli written in golang used to fetch CVEs across github orgs and repos.
 
 
 
