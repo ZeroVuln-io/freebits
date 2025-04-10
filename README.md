@@ -13,10 +13,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#cloudflare">Cloudflare Deployment (Pulumi Encoded) </a>
+      <a href="#cloudflare">Cloudflare Deployment Using Pulumi</a>
     </li>
     <li>
-      <a href="#aws">GCP</a>
+      <a href="#aws">Github Dependabot Alert Fetcher</a>
     </li>
   </ol>
 </details>
@@ -26,13 +26,13 @@
 <!-- Cloudflare -->
 # Cloudflare Deployment
 
-This[repository](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) contains Python code to deploy and manage Cloudflare infrastructure using Pulumi.
+[Cloudflare Deployment]](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) written in using Pulumi and written in Python.
 
 
 <!-- Github Dependabot Alert Fetcher -->
 # Github Dependabot Alert Fetcher
 
-[ghbotcheck]()is a cli written in golang used to fetch CVEs across github orgs and repos.
+[ghbotcheck]() is a cli written in golang used to fetch CVEs across github orgs and repos.
 
 
 
