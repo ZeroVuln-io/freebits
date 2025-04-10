@@ -5,7 +5,7 @@
     <img src="images/zv-logo.png" alt="Logo" width="200" height="40">
   </a>
 
-  <h3 align="center">Free Bits for Securing Platforms and Services</h3>
+  <h3 align="center">Free Security Tools and IaC for Securing All The Things</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
