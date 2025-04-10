@@ -32,7 +32,7 @@
 <!-- Github Dependabot Alert Fetcher -->
 # Github Dependabot Alert Fetcher
 
-- [ghbotcheck]() is a cli written in golang used to fetch CVEs across github orgs and repos.
+- [ghbotcheck](https://github.com/ZeroVuln-io/freebits/tree/main/github/cli-tools/ghbotcheck) is a cli written in golang used to fetch CVEs across github orgs and repos.
 
 
 
