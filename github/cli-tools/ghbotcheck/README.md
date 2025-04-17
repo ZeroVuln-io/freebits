@@ -29,11 +29,12 @@ go build -o ghbotcheck ghbotcheck.go
 
 ## 🔐 Authentication
 
-You’ll be prompted at runtime to enter your GitHub Personal Access Token (PAT) securely.
+You’ll be prompted at runtime to enter your GitHub Personal Access Token (PAT) securely.  osX keychain integration coming soon.
 
-**Required scope:** `security_events`
+**Required scopes:**
+- `security_events` (to read Dependabot alerts)  
+- `repo` (for private repositories) or `public_repo` (for public repositories) 
 
-Even if you redirect output (e.g. `> output.json`), the prompt appears via `stderr` to prevent leaking to files.
 
 ---
 
