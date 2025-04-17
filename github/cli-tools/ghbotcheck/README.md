@@ -6,15 +6,12 @@
 
 ## ✅ Features
 
-- 🔐 Secure, interactive PAT authentication
-- 📁 Organization-wide or repo-specific scanning
-- 🔍 Filter alerts by:
-  - Partial keyword (`--match`)
-  - CVE ID (`--cve`)
-  - Severity (`--severity`) — e.g. `Critical`, `High`
-- 📊 Optional grouping by severity using `--group`
-- 📤 Output in either human-readable or JSON format (`--format json`)
-- ❌ Skips `fixed`, `dismissed`, or `auto_dismissed` alerts
+- 🔐 Secure, interactive PAT authentication  
+- 📁 Organization‑wide or repo‑specific scanning  
+- 🔍 Filter alerts by package name substring (`--pkg foo,bar`)  
+- 📤 Output in either human‑readable or JSON format (`--format json`)  
+- ❌ Only unresolved (`open`) alerts are shown  
+- 🆔 CVE IDs are automatically extracted and displayed when present  
 
 ---
 
@@ -59,7 +56,7 @@ Even if you redirect output (e.g. `> output.json`), the prompt appears via `stde
 
 ### Match partial package name or summary:
 ```bash
-./ghbotcheck --org my-org --match tj-actions
+./ghbotcheck --org my-org --pkg tj-actions
 ```
 
 ### Match by CVE ID:
@@ -74,7 +71,7 @@ Even if you redirect output (e.g. `> output.json`), the prompt appears via `stde
 
 ### Output JSON:
 ```bash
-./ghbotcheck --org my-org --match tj-actions --format json > tj-actions.json
+./ghbotcheck --org my-org --pkg tj-actions --format json > tj-actions.json
 ```
 
 ---
@@ -100,7 +97,7 @@ More Info:          https://github.com/org/repo/security/dependabot/1
 | `--repo`     | Repository name (must be used with `--org`)                   |
 | `--group`    | Group alerts by severity level                                |
 | `--severity` | Only show alerts with this severity (e.g. `Critical`)         |
-| `--match`    | Partial keyword match in summary or package name              |
+| `--pkg`    | Partial keyword match in summary or package name              |
 | `--cve`      | Partial CVE ID match                                          |
 | `--format`   | Output format: `default` (pretty) or `json`                   |
 
