@@ -16,6 +16,9 @@
       <a href="#cloudflare">Cloudflare Deployment Using Pulumi</a>
     </li>
     <li>
+      <a href="#aws">GCP Secrets Deployment</a>
+    </li>
+    <li>
       <a href="#aws">Github Dependabot Alert Fetcher</a>
     </li>
   </ol>
@@ -26,7 +29,13 @@
 <!-- Cloudflare -->
 # Cloudflare Deployment
 
-- [Cloudflare Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) written in using Pulumi and written in Python.
+- [Cloudflare Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) written in Python using Pulumi.
+
+
+<!-- GCP Secrets -->
+# GCP Secrets Deployment
+
+- [GCP Secrets Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/gcp/secrets) written in Python using Pulumi.
 
 
 <!-- Github Dependabot Alert Fetcher -->
