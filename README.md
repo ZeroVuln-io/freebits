@@ -27,19 +27,19 @@
 
 
 <!-- Cloudflare -->
-# Cloudflare Deployment
+## Cloudflare Deployment
 
 - [Cloudflare Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/cloudflare) written in Python using Pulumi.
 
 
 <!-- GCP Secrets -->
-# GCP Secrets Deployment
+## GCP Secrets Deployment
 
 - [GCP Secrets Deployment](https://github.com/ZeroVuln-io/freebits/tree/main/gcp/secrets) written in Python using Pulumi.
 
 
 <!-- Github Dependabot Alert Fetcher -->
-# Github Dependabot Alert Fetcher
+## Github Dependabot Alert Fetcher
 
 - [ghbotcheck](https://github.com/ZeroVuln-io/freebits/tree/main/github/cli-tools/ghbotcheck) is a cli written in golang used to fetch CVEs across github orgs and repos.
 
